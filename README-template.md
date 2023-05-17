@@ -20,7 +20,7 @@
 ### Links
 
 - Solution URL: [Github](https://github.com/iionayne25/product-preview-card)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://vercel.com/pavineesut/product-preview-card-by-pavinee)
 
 ## My process
 
