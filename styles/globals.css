@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+
+body {
+ background-color: hsl(30, 38%, 92%)
+
+}
+@layer components{
+ .cardContainer{
+  @apply flex flex-col gap-4  bg-white w-full h-fit rounded-lg pb-4 xl:w-[580px] xl:h-[450px]
+  xl:flex-row xl:gap-0 xl:pb-0 xl:justify-center 
+ }
+ .textContainer{
+  @apply flex flex-col gap-4  mx-4 xl:my-0 xl:gap-4 xl:mx-4
+ }
+ .perfoumeText{ 
+  @apply font-sans uppercase tracking-[4px] text-[14px] text-darkGrayishBlue 
+}
+.nameText{ 
+  @apply font-serif  text-[30.5px] text-veryDarkBlue leading-[30px] xl:pr-4 
+}
+.description{
+  @apply font-sans font-medium text-darkGrayishBlue text-[14px] text-left pr-2
+}
+.priceContainer{
+@apply flex flex-row gap-4 mx-4 items-center 
+}
+.priceText{
+ @apply font-serif text-darkCyan text-2xl
+}
+.priceDiscountText{
+@apply font-sans text-[14px] line-through text-darkGrayishBlue
+}
+.btnAddtoCart{
+  @apply flex justify-center items-center gap-2 bg-darkCyan text-white h-10 rounded-md mx-4
+  font-sans font-bold text-[14px] hover:bg-veryDarkBlue
+}
+}
